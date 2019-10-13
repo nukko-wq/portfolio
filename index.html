@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='Shouta Tsuboi Portfolio'>
+  <meta property='og:url' content='URL入る'>
+  <meta property='og:description' content='坪井翔太のポートフォリオです。'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="坪井翔太のポートフォリオです。" />
+  <title>Shouta Tsuboi's ポートフォリオ</title>
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <script src="https://kit.fontawesome.com/9f9273b19e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <header id="header">
+      <h1 class="logo">
+        <span class="logo-title">Shouta Tsuboi's Portfolio</span>
+        <span class="logo-desc">坪井翔太</span>
+      </h1>
+    </header>
+    <nav id="gnav">
+      <ul>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#works">WORKS</a></li>
+        <li><a href="#skill">SKILL</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <main id="contents">
+      <section class="section" id="about">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title"><i class="far fa-smile"></i><span class="icon-space"></span>ABOUT</h2>
+          </div>
+          <div class="two-column-wrapper">
+            <div class="two-column-image">
+              <img src="img/profile/img_profile.png" alt="">
+            </div>
+            <div class="two-column-desc">
+              <p class="text">初めまして。坪井翔太と申します。<br>趣味でプログラミングを始め、画像収集スクリプトや生活リズム記録サービス等を制作(2013年)。クライアントサイド、サーバーサイドともに学習中です。<br>その他に天気予報の印字システム(2014年)を制作したり、ものづくりが好きです。<br>また小売店に就職経験がありPOSシステム移行の際、シェルスクリプト、Rubyを活用しマスタ登録情報の変換プログラムを作りました。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="works">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title"><i class="far fa-folder-open"></i><span class="icon-space"></span>WORKS</h2>
+          </div>
+          <div class="card-wrapper my-gallery">
+            <figure class="card">
+              <a href="img/works/work01.jpg" data-size="980x668" class="card-image">
+                <img src="img/works/thumb/thumb_work01.jpg" alt="" />
+              </a>
+              <figcaption class="card-caption">
+                <p class="card-caption-title">生活リズム記録サービス</p>
+                <p class="card-caption-info">睡眠時間や気分・体調の評価を記録・管理します。(Ruby/Sinatra)を使っています。データベースはMySQLを使用しました。実行環境は(CeontOS/Nginx/Unicorn)です。</p>
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <a href="img/works/work02.jpg" data-size="980x668" class="card-image">
+                <img src="img/works/thumb/thumb_work02.jpg" alt="" />
+              </a>
+              <figcaption class="card-caption">
+                <p class="card-caption-title">天気予報印字システム</p>
+                <p class="card-caption-info">(Raspberry Pi/Arduino/サーマルプリンタ)を組み合わせてボタンを押すと今日の天気予報がレシートに印字されるものを作りました。コードは主にRubyを使っています。</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skill">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title"><i class="far fa-address-card"></i><span class="icon-space"></span>SKILL</h2>
+          </div>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="skill-icon">
+                  <i class="fas fa-angle-right"></i>
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">HTML/CSS/JavaScript</h3>
+                <div class="rating">
+                  <p class="rate rate2"></p>
+                </div>
+                <p class="text">dotinstallや書籍で勉強しました。YouTubeのAPIを使って遊んだり、生活リズム記録サイト制作時に使用しました。</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                  <i class="fas fa-angle-right"></i>
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">WordPress</h3>
+                <div class="rating">
+                  <p class="rate rate2"></p>
+                </div>
+                <p class="text">自作テーマ制作経験があります。ブランクがあるので再学習中です。</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <i class="fas fa-angle-right"></i>
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Ruby</h3>
+                <div class="rating">
+                  <p class="rate rate3"></p>
+                </div>
+                <p class="text">生活リズム記録サイト制作時に使用しました。またWebサイトの解析やcsvファイルの操作に使用していました。</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <i class="fas fa-angle-right"></i>
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">OS</h3>
+                <div class="rating">
+                  <p class="rate rate3"></p>
+                </div>
+                <p class="text">Windows/macOS/Linux(CentOS)の使用経験があります。</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <i class="fas fa-angle-right"></i>
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">その他</h3>
+                <div class="rating">
+                  <p class="rate rate3"></p>
+                </div>
+                <p class="text">以下のツールを使用して開発しています。<br>git</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="contact">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title"><i class="far fa-envelope"></i><span class="icon-space"></span>CONTACT</h2>
+            <p class="section-desc">
+              お問合わせは下記のSNSからご連絡をください。
+            </p>
+          </div>
+          <div class="contact-wrapper">
+            <div class="contact-list">
+              <ul>
+                <li><a href="https://twitter.com/hatsuyuki22" target="_blank"><img src="img/contact/icon_contact.png" alt=""><span
+                      class="contact-list-desc">Twitter</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <nav class="footer-link">
+          <ul>
+            <li><a href="#works">WORKS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skill">SKILL</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+        <p class="copyright">Copyright&copy; 2019 Shouta Tsuboi. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+           It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+              Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe_setup.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
