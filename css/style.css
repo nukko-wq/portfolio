@@ -501,6 +501,14 @@ li {
     text-align: center;
   }
 
+  #header .desktop-logo-title {
+    display: none;
+  }
+  #header .mobile-logo-title {
+    display: block;
+    text-align: center;
+  }
+
   #header .logo-name {
     font-size: 16px;
   }
