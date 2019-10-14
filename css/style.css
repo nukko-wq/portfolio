@@ -107,6 +107,10 @@ li {
   line-height: 1;
 }
 
+#header .mobile-logo-title {
+  display: none;
+}
+
 #header .logo-desc {
   display: block;
   font-size: 14px;
@@ -489,6 +493,14 @@ li {
     font-size: 40px;
   }
 
+  #header .desktop-logo-title {
+    display: none;
+  }
+  #header .mobile-logo-title {
+    display: block;
+    text-align: center;
+  }
+
   #header .logo-name {
     font-size: 16px;
   }
@@ -498,7 +510,7 @@ li {
   }
 
   #gnav li {
-    padding: 0 10px;
+    padding: 0 5px;
   }
 
   #gnav li a {
